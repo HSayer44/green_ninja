@@ -9,6 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  bonfire: 2.12.0
+  flame_audio: 1.4.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +19,10 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/audio/effects/
+    - assets/images/
+    - assets/images/effects/
+    - assets/images/items/
+    - assets/images/sprite_sheets/
+    - assets/images/decorations/
